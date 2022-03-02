@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passoword Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+
+<body>
+    
+    <div class="pw-container">
+        <div class="pw-title">
+            <p>Secret Password Generator</p>
+        </div>
+        <div class="pw-header">
+            <div class="pw">
+                25256326436436
+                <button><i class='bx bxs-copy-alt' ></i></button>
+            </div>
+        </div>
+        <div class="pw-body">
+            <div class="form-control slider">Length:<label for="length"></label>
+                <input id="length" type="range" min="6" max="32" value="8" oninput="this.nextElementSibling.value = this.value"/>
+                <output>8</output>
+            </div>
+            <div class="form-control">Include Uppercase
+                <input type="checkbox" class="checkbox" id="uppercase">
+                <label for="uppercase" class="switch"></label>
+            </div>
+            <div class="form-control">Include Lowercase
+                <input type="checkbox" class="checkbox" id="lowercase">
+                <label for="lowercase" class="switch"></label>
+            </div>
+            <div class="form-control">Include Numbers
+                <input type="checkbox" class="checkbox" id="numbers">
+                <label for="numbers" class="switch"></label>
+            </div>
+            <div class="form-control">Include Symbols
+                <input type="checkbox" class="checkbox" id="symbols">
+                <label for="symbols" class="switch"></label>
+            </div>
+            <button class="generate" id="generate">New Password</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
