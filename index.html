@@ -8,23 +8,23 @@
     <title>Passoword Generator</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    
+
 
 <body>
-    
     <div class="pw-container">
         <div class="pw-title">
             <p>Secret Password Generator</p>
         </div>
         <div class="pw-header">
-            <div class="pw">
-                25256326436436
-                <button><i class='bx bxs-copy-alt' ></i></button>
+            <div class="pw" id="">
+                <span id="password">Click Button Below !</span>
+                <button id="copy"><i class='bx bxs-copy-alt'></i></button>
             </div>
         </div>
         <div class="pw-body">
             <div class="form-control slider">Length:<label for="length"></label>
-                <input id="length" type="range" min="6" max="32" value="8" oninput="this.nextElementSibling.value = this.value"/>
+                <input id="length" type="range" min="6" max="30" value="8"
+                    oninput="this.nextElementSibling.value = this.value" />
                 <output>8</output>
             </div>
             <div class="form-control">Include Uppercase
@@ -47,9 +47,7 @@
         </div>
     </div>
 
-
     <script src="script.js"></script>
-    
 </body>
 
 </html>
