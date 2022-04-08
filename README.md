@@ -9,9 +9,9 @@
 https://developer-soni.github.io/Password-Generator/
 
 ## Description
-I have created a Password Generator as a part of Day 1 in #100DaysOfCode.\
-Used HTML/CSS for creating DOM, styling and used variable CSS via a color palette.\
-Password can also be copied to clipboard using the button provided.\
+* I have created a Password Generator as a part of Day 1 in #100DaysOfCode.
+* Used HTML/CSS for creating DOM, styling and used variable CSS via a color palette. 
+* Password can also be copied to clipboard using the button provided.
 
 ## How to Use
 There are options to include/ select:
