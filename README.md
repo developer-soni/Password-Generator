@@ -21,3 +21,6 @@ There are options to include/ select:
 * Special Characters
 * Length of Password
 * Copy Password to Clipboard
+
+## Screenshot
+<img src="pass1.png" alt="PasswordGenerator!" width="80%"/>
