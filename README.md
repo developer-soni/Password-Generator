@@ -24,3 +24,4 @@ There are options to include/ select:
 
 ## Screenshot
 <img src="pass1.png" alt="PasswordGenerator!" width="80%"/>
+<img src="color-palette.png" alt="ColorPalette!" width="80%"/>
